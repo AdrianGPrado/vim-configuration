@@ -65,7 +65,7 @@ nmap <leader>w :w!<cr>
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set 7 lines to the cursor - when moving vertically using j/k
-set so=7
+set scrolloff=7
 
 " Avoid garbled characters in Chinese language windows OS
 let $LANG='en' 
@@ -117,22 +117,22 @@ set magic
 
 " Show matching brackets when text indicator is over them
 set showmatch 
+
 " How many tenths of a second to blink when matching brackets
 set mat=2
 
 " No annoying sound on errors
 set noerrorbells
 set novisualbell
+
+" Visual bell
 set t_vb=
-set tm=500
+set timeoutlen=500
 
 " Properly disable sound on errors on MacVim
 if has("gui_macvim")
     autocmd GUIEnter * set vb t_vb=
 endif
-
-" Add a bit extra margin to the left
-set foldcolumn=1
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -158,12 +158,25 @@ set shiftwidth=4
 set tabstop=4
 
 " Linebreak on 500 characters
-set lbr
-set tw=500
+set linebreak
 
-set ai "Auto indent
-set si "Smart indent
-set wrap "Wrap lines
+" Maximum width
+set textwidth=80
+
+" Highlighted 80th column
+set colorcolumn=80
+
+" Add a bit extra margin to the left
+set foldcolumn=1
+
+"Auto indent
+set autoindent 
+
+"Smart indent
+set smartindent 
+
+"Wrap lines
+set wrap 
 
 
 """"""""""""""""""""""""""""""
