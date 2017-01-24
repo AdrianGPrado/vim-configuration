@@ -140,7 +140,10 @@ Plug 'klen/python-mode', {'for': 'python'}
 
 " Python checker
 " https://github.com/nvie/vim-flake8
-Plug 'nvie/vim-flake8', {'for': 'python'}
+"Plug 'nvie/vim-flake8', {'for': 'python'}
+
+" https://github.com/kevinw/pyflakes-vim
+Plug 'kevinw/pyflakes-vim', {'for': 'python'}
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CPP
