@@ -42,6 +42,9 @@ Plug 'morhetz/gruvbox'
 " https://github.com/ctrlpvim/ctrlp.vim
 Plug 'ctrlpvim/ctrlp.vim'
 
+" https://github.com/gabesoft/vim-ags
+Plug 'gabesoft/vim-ags'
+
 " https://github.com/corntrace/bufexplorer
 Plug 'corntrace/bufexplorer'
 
@@ -122,6 +125,12 @@ Plug 'xolox/vim-easytags'
 " https://github.com/xolox/vim-misc
 Plug 'xolox/vim-misc'
 
+" https://github.com/jakedouglas/exuberant-ctags
+Plug 'jakedouglas/exuberant-ctags'
+
+" https://github.com/majutsushi/tagbar
+Plug 'majutsushi/tagbar'
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Python
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -132,7 +141,6 @@ Plug 'klen/python-mode', {'for': 'python'}
 " Python checker
 " https://github.com/nvie/vim-flake8
 Plug 'nvie/vim-flake8', {'for': 'python'}
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CPP
