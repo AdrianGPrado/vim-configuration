@@ -105,10 +105,6 @@ Plug 'tpope/vim-surround'
 " https://github.com/Valloric/YouCompleteMe
 Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM'), 'for': ['cpp', 'python'] }
 
-" Python autocompletion that works with YCM
-" https://github.com/davidhalter/jedi-vim
-Plug 'davidhalter/jedi-vim', {'for': 'python'}
-
 " https://github.com/yggdroot/indentline
 Plug 'yggdroot/indentline'
 "Plugin 'yggdroot/indentline'
@@ -135,6 +131,10 @@ Plug 'majutsushi/tagbar'
 " Python
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Python autocompletion that works with YCM
+" https://github.com/davidhalter/jedi-vim
+Plug 'davidhalter/jedi-vim', {'for': 'python'}
+
 " https://github.com/klen/python-mode
 Plug 'klen/python-mode', {'for': 'python'}
 
@@ -143,7 +143,7 @@ Plug 'klen/python-mode', {'for': 'python'}
 "Plug 'nvie/vim-flake8', {'for': 'python'}
 
 " https://github.com/kevinw/pyflakes-vim
-Plug 'kevinw/pyflakes-vim', {'for': 'python'}
+"Plug 'kevinw/pyflakes-vim', {'for': 'python'}
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CPP
