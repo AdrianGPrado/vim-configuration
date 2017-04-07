@@ -88,6 +88,9 @@ Plug 'evanmiller/nginx-vim-syntax'
 " https://github.com/fatih/vim-go
 Plug 'fatih/vim-go', {'for': 'go'}
 
+" Ansible 
+Plug 'pearofducks/ansible-vim'
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " General code plugins
