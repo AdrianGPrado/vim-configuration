@@ -16,3 +16,6 @@ source ~/.vim/vimrcs/my_configs.vim
 catch
 endtry
 
+set clipboard=unnamed
+set paste
+
