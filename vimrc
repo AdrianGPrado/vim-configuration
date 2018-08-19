@@ -1,15 +1,8 @@
+" vim basic configuration
+source ~/.vim/vimrc.d/basic.vim
 
-
-" vim plugin configuration
-"
-" Autoload vim-plug if not present
-"
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
-
-call plug#begin('~/.vim/plugged')
+" vim plugs configuration
 source ~/.vim/vimrc.d/plugins.vim
-call plug#end()
+
+" code integration
+source ~/.vim/vimrc.d/code.vim
